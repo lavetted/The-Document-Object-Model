@@ -5,9 +5,11 @@ body {
   height: 100%;
   box-sizing: border-box;
   width: 100%;
-  background-image: url("../images/Will\ Ferrell\ GIF.gif");
+  background-image: url("../images/tokyo\ ghoul\ GIF.gif");
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
+  background-color: black;
 }
 
 #title {
@@ -15,7 +17,7 @@ body {
   justify-content: center;
   align-items: center;
   margin-top: 0px;
-  color: black;
+  color: rgb(136, 15, 15);
   font-size: 90px;
   text-shadow: #ffffff 2px 4px 4px;
 }
@@ -43,7 +45,7 @@ li {
 /* Styles the actual links */
 li a {
   display: block; /* Makes the entire area of the link clickable */
-  color: rgb(10, 0, 0);
+  color: whitesmoke;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none; /* Removes default link underlines */
