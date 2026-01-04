@@ -19,50 +19,50 @@ Since topic and content are secondary to functionality for this assessment, we h
 
 ## Checklist:
 
-- Cache at least one element using selectElementByld.
+- Cache at least one element using selectElementByld. ✅
 
-- Cache at least one element using querySelector or querySelectorAlL
+- Cache at least one element using querySelector or querySelectorAlL ✅
 
 - Use the parent-child-sibling relationship to navigate between elements
 at least once ffirstChild, lastChild, parentNode, nextElementSibling,
-etc.l.
+etc.l. ✅
 
 - Iterate over a collection of elements to accomplish some task.
 
-- Create at least one element using creatcElemont.
+- Create at least one element using createElement.
 
-- Use appendChild and/or prepend to add new elements to the DOM.
+- Use appendChild and/or prepend to add new elements to the DOM. ✅
 
 - Use the DocumentFragment interface or HTML templating with the
 cloneNode method to create templated content.
 
 - Modify the HTML or text content of at least one element in response to
-user interaction using innerHTML, innerText, or textContent.
+user interaction using innerHTML, innerText, or textContent.  ✅
 
 - Modify the style and/or CSS classes of an element in response to user
 interactions using the style or classList propertics.
 
 - Modify at least one attribute of an element in response to user
-interaction.
+interaction. ✅
 
 - Register at least two different event listeners and create the associated
-event handler functions.
+event handler functions. ✅
 
-- Use at least two Browser Object Model (BOM) propertics or methods.
+- Use at least two Browser Object Model (BOM) propertics or methods. ✅
 
-- Include at least one form and/or input with HTML attribute validation.
+- Include at least one form and/or input with HTML attribute validation. ✅
 
 - Include at least one form and/or input with DOM event-based
 validation. (This can be the same form or input as the one above, but
 should include event-based validation in addition to the HTML attribute
-validation.)
+validation.) ✅
 
 - Ensure that the program runs without errors (comment out things that
 do not work, and explain your blockers - you can still receive partial
-credit).
+credit). ✅
 
-- Commit frequently to the git repository.
+- Commit frequently to the git repository. ✅
 
-- Include a README file that contains a description of your application.
+- Include a README file that contains a description of your application. ✅
 
-- Level of effort displayed in creativity, presentation, and user experience.
+- Level of effort displayed in creativity, presentation, and user experience. ✅

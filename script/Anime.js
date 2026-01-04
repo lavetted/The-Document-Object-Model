@@ -13,6 +13,7 @@ function sendMessage() {
 
   msgDiv.innerHTML = `<span>${username}:</span> ${message}`;
 
+  // parent-child-sibling relationships
   chatBox.appendChild(msgDiv);
 
   document.getElementById("message").value = "";

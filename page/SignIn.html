@@ -5,24 +5,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Get In Loser</title>
     <link rel="stylesheet" href="../style/SignIn.css" />
+    <script defer src="../script/SignIn.js"></script>
   </head>
-  
+
   <body>
-    <form action="#" method="post">
+    <h1 id="title"></h1>
+    <form action="#" method="post" id="loginForm">
       <fieldset>
         <legend id="Icon"></legend>
         <div class="form__group">
-          <input type="text" id="username" name="username" placeholder="Username" required />
+          <input
+            type="text"
+            id="username"
+            name="username"
+            placeholder="Username"
+            required
+            minlength="3"
+          />
         </div>
 
         <div class="form__group">
-          <input type="password" id="password" name="password" placeholder="Password" required />
+          <input
+            type="password"
+            id="password"
+            name="password"
+            placeholder="Password"
+            required
+            minlength="6"
+          />
         </div>
 
         <div class="form__group">
           <input type="submit" value="Sign In" class="form__button" />
+          <p id="errorMsg" class="error"></p>
         </div>
       </fieldset>
     </form>
+    <!-- LOGOUT BUTTON (for BOM + DOM interaction) -->
+    <button id="logoutBtn" hidden>Logout</button>
   </body>
 </html>

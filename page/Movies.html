@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie Reviews</title>
+    <link rel="stylesheet" href="../style/Movies.css" />
+    <script defer src="../script/Movies.js"></script>
+  </head>
+  <body>
+    <h2 id="header">Leave a Review</h2>
+    <p>
+      Movie Review of the month is...
+      <strong>Avatar Fire and Ash &#127892;</strong>
+    </p>
+
+    <section id="reviewSection">
+      <input type="text" id="reviewInput" placeholder="Write your review..." />
+      <button id="addReviewBtn">Add Review</button>
+
+      <div id="reviews"></div>
+    </section>
+
+    <!-- TEMPLATE -->
+    <template id="reviewTemplate">
+      <div class="review">
+        <p class="review__text"></p>
+        <button class="likeBtn">Like</button>
+      </div>
+    </template>
+  </body>
+</html>

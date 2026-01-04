@@ -10,6 +10,11 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-color: black;
+  font-family: "DM Serif Text", serif;
+}
+
+* {
+  box-sizing: inherit;
 }
 
 #title {
@@ -58,15 +63,52 @@ li a:hover {
 }
 
 p {
-  color: white;
-  font-size: 25px;
   display: flex;
   justify-content: center;
   text-align: center;
+  color: white;
+  font-size: 25px;
   text-shadow: 2px 4px 4px rgb(26, 25, 25);
   position: absolute;
   font-weight: bold;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+  opacity: 0.4;
+  color: black;
+  text-align: center;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+}
+
+.table {
+  width: 100%;
+  margin-top: 1rem;
+  color: #212529;
+}
+
+.social {
+  display: flex;
+  justify-content: space-between;
+  font-size: large;
+  margin: 0;
+}
+
+.social-icon {
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.social-icon:hover {
+  transform: scale(1.15);
 }

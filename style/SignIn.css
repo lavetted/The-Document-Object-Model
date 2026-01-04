@@ -3,8 +3,8 @@ html {
   padding: 0;
   height: 100%;
   box-sizing: border-box;
-  background-image: url(../images/sharingan-naruto.png);
-  background-size: 60%;
+  background-image: url(../images/Pain.jpg);
+  background-size: 85%;
   background-position: center;
   background-repeat: no-repeat;
   background-color: black;
@@ -67,7 +67,7 @@ input {
 }
 
 input[type="submit"] {
-  background-color: rosybrown;
+  background-color: rgb(145, 84, 84);
   color: white;
 }
 
@@ -76,8 +76,32 @@ input[type="submit"] {
   justify-content: center;
   align-items: center;
   width: 250px;
-  background-image: url(../images/Mean\ Black\ Friday\ GIF.gif);
+  background-image: url(../images/uzumaki\ naruto\ eyes\ GIF.gif);
   background-size: cover;
   background-position: center;
   height: 150px;
+}
+
+#title {
+  text-align: center;
+  color: whitesmoke;
+  text-shadow: black 2px 2px 4px;
+  font-size: 10rem;
+  margin-top: 1rem;
+}
+
+#logoutBtn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: rgb(158, 12, 41);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#logoutBtn:hover {
+  background-color: rgb(110, 20, 40);
 }
