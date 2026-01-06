@@ -7,11 +7,11 @@ const template = document.getElementById("reviewTemplate");
 // =====================
 // ADD REVIEW EVENT
 // =====================
+
 addReviewBtn.addEventListener("click", function () {
   const reviewTextValue = reviewInput.value.trim();
 
   if (reviewTextValue === "") {
-    // BOM method
     window.alert("Please write a review first.");
     return;
   }
@@ -27,6 +27,34 @@ addReviewBtn.addEventListener("click", function () {
   // Modify text content
   reviewText.textContent = reviewTextValue;
 
+  // =====================
+  // createElement REQUIREMENT ✅
+  // =====================
+  const timeStamp = document.createElement("small");
+
+  // classList propertics
+  timeStamp.classList.add("timestamp");
+
+  const createdTime = Date.now();
+
+  function updateRelativeTime() {
+    const secondsPassed = Math.floor((Date.now() - createdTime) / 1000);
+
+    if (secondsPassed < 60) {
+      timeStamp.textContent = "Posted just now";
+    } else if (secondsPassed < 120) {
+      timeStamp.textContent = "Posted 1 minute ago";
+    } else {
+      const minutes = Math.floor(secondsPassed / 60);
+      timeStamp.textContent = `Posted ${minutes} minutes ago`;
+    }
+  }
+
+  updateRelativeTime();
+  setInterval(updateRelativeTime, 60000);
+
+  reviewCard.appendChild(timeStamp);
+
   // Modify attribute
   likeBtn.setAttribute("data-liked", "false");
 
@@ -36,13 +64,12 @@ addReviewBtn.addEventListener("click", function () {
 
     parent.classList.toggle("liked");
 
-    // Modify text + attribute
     const liked = this.getAttribute("data-liked") === "true";
     this.setAttribute("data-liked", String(!liked));
     this.textContent = liked ? "Like" : "Liked!";
   });
 
-  // appendChild
+  // appendChild (review card)
   reviewsContainer.appendChild(reviewCard);
 
   reviewInput.value = "";

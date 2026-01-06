@@ -27,20 +27,20 @@ Since topic and content are secondary to functionality for this assessment, we h
 at least once ffirstChild, lastChild, parentNode, nextElementSibling,
 etc.l. ✅
 
-- Iterate over a collection of elements to accomplish some task.
+- Iterate over a collection of elements to accomplish some task. ✅
 
-- Create at least one element using createElement.
+- Create at least one element using createElement. ✅
 
 - Use appendChild and/or prepend to add new elements to the DOM. ✅
 
 - Use the DocumentFragment interface or HTML templating with the
-cloneNode method to create templated content.
+cloneNode method to create templated content. ✅
 
 - Modify the HTML or text content of at least one element in response to
 user interaction using innerHTML, innerText, or textContent.  ✅
 
 - Modify the style and/or CSS classes of an element in response to user
-interactions using the style or classList propertics.
+interactions using the style or classList propertics. ✅
 
 - Modify at least one attribute of an element in response to user
 interaction. ✅
