@@ -4,7 +4,7 @@ body {
   background-image: url(../images/avatar.jpg);
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
+  background-repeat: repeat-y;
   height: 100vh;
   background-color: black;
 }
@@ -14,19 +14,18 @@ body {
 }
 
 #header {
-  margin-bottom: 15px;
   text-align: center;
   color: azure;
   text-shadow: black 2px 2px 4px;
-  font-size: 36px;
+  font-size: 45px;
 }
 
 p {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   color: white;
   text-shadow: black 2px 2px 4px;
   text-align: center;
-  font-size: 18px;
+  font-size: 25px;
 }
 
 #reviewSection {
@@ -40,7 +39,7 @@ p {
 }
 
 #addReviewBtn {
-  padding: 8px 12px;
+  padding: 10px 12px;
   cursor: pointer;
   background-color: #b6260d;
   color: white;
@@ -60,7 +59,7 @@ p {
   border: none;
   border-radius: 25px;
   padding: 10px;
-  margin-top: 10px;
+  margin-top: 30px;
 }
 
 .review__text {
