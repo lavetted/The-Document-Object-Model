@@ -1,3 +1,7 @@
+## Description📽️
+
+This project is a movie review and anime chat web application built with HTML, CSS, and JavaScript. Users can submit reviews that are added to the page using DOM manipulation and HTML templates. The app includes interactive features such as like buttons, live-updating timestamps, and browser-based alerts to enhance user experience.
+
 ## Objectives
 
 - Use DOM properties, methods, and techniques to create a web application that provides a dynamic user experience.
@@ -17,7 +21,7 @@ Once you have an idea in mind, approach your design through the user's perspecti
 
 Since topic and content are secondary to functionality for this assessment, we have included some resources below for free content that you can use to populate your application. Once you have gotten your functionality in place, you can return and fill in the content with something interesting.
 
-## Checklist:
+## Checklist
 
 - Cache at least one element using selectElementByld. ✅
 
@@ -66,3 +70,4 @@ credit). ✅
 - Include a README file that contains a description of your application. ✅
 
 - Level of effort displayed in creativity, presentation, and user experience. ✅
+<!--  -->
