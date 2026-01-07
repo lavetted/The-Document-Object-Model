@@ -6,7 +6,6 @@ const title = document.getElementById("title");
 const logoutBtn = document.querySelector("#logoutBtn");
 const errorMsg = document.querySelector("#errorMsg");
 
-// =====================
 // LOGIN FORM (EVENT + DOM VALIDATION)
 // =====================
 
@@ -38,7 +37,6 @@ loginForm.addEventListener("submit", function (e) {
   logoutBtn.hidden = false;
 });
 
-// =====================
 // LOGOUT
 // =====================
 

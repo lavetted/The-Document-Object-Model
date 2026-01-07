@@ -27,8 +27,7 @@ addReviewBtn.addEventListener("click", function () {
   // Modify text content
   reviewText.textContent = reviewTextValue;
 
-  // =====================
-  // createElement REQUIREMENT ✅
+  // createElement REQUIREMENT
   // =====================
   const timeStamp = document.createElement("small");
 
